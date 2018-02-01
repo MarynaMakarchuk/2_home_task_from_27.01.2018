@@ -62,7 +62,9 @@ include 'first/session.php';
         if(!$page){
             $page = 'index';
         }
-        include "pages/$page.php";
+        if (file_exists(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'pages' . $page . '.php')) {
+            include "pages/$page.php";
+        }
         ?>
     </div>
     <div class="footer common">
