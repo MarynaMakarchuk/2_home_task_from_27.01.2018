@@ -51,8 +51,8 @@ include 'first/session.php';
     <div class="header common">
         <div class="top-menu">
             <ul>
-                <li><a href="/2_home_task_from_27.01.2018?page=Index">Index</a></li>
-                <li><a href="/2_home_task_from_27.01.2018?page=Hello">Hello</a></li>
+                <li><a href="?page=Index">Index</a></li>
+                <li><a href="?page=Hello">Hello</a></li>
             </ul>
         </div>
     </div>
